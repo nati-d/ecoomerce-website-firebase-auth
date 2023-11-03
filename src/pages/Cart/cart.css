@@ -1,0 +1,25 @@
+.cart-header{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.cart-box{
+    width:350px;
+    border:2px solid #ffd966;
+    padding:20px 30px;
+    margin: 20px auto;
+
+}
+.texts{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-page-btn{
+    width:100%;
+    padding:10px 15px;
+    margin-top: 15px;
+    background-color: #ffd966;
+    color: black;
+    
+}

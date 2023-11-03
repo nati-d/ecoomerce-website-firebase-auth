@@ -1,0 +1,89 @@
+@import url(../../App.css);
+.header{
+    background-color: var(--clr-white);
+    height: vh;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 15px 0;
+    position: sticky;
+    top:0;
+    z-index: 99;
+  }
+  .logo h3{
+    font-size: 25px;
+    font-weight: 600;
+    color:#ffd965
+  }
+  .logo span{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .header a{
+    margin-left: 30px;
+    transition: 0.5s;
+    font-weight: 500;
+  }
+  .header a:hover{
+    color:#ffd965
+  }
+  .cart-btn{
+    border:2px solid #ffd965;
+    padding:10px 30px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .cart-btn:hover{
+    background-color: rgb(245, 242, 242);
+    transition: 0.5s;
+  }
+  .cart-btn span{
+    width:auto;
+    padding:0 6px;
+    background-color: #ffd965;
+    border-radius: 50px;
+    color:#000;
+    margin-right: 4px;
+    font-weight: 400;
+  }
+  .logout-btn{
+    background-color: black;
+    color:white
+  }
+  .cart-btn h4{
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  .header .toggle{
+    display:none;
+  }
+  @media screen and (max-width:768px){
+    .header{
+        padding:0;
+    }
+    .header img{
+        margin-top: 30px;
+    }
+    .header .button{
+        display:none
+    }
+    .header .nav .flex{
+        display: none;
+    }
+    .header .toggle{
+        display: block;
+        margin: 10px 0;
+    }
+    .header .small{
+        position: absolute;
+        top:7.5vh;
+        left:0;
+        width: 100%;
+        background-color: #ffd965;
+        padding: 20px;
+    }
+    .header li a{
+        display: inline-block;
+        margin-bottom: 20px;
+        color:#000;
+    }
+  }

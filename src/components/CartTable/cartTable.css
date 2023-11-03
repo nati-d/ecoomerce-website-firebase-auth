@@ -1,0 +1,40 @@
+table{
+    width:100%;
+}
+td img{
+    width:60px;
+    height:60px
+}
+tr{
+    text-align: left;
+    border: 1px solid black;
+}
+td input{
+    width:80%;
+    height:30px;
+    color:black;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bolder;
+    border: 2px solid black;
+}
+.cart-box{
+    width:350px;
+    border:2px solid #ffd966;
+    padding:20px 30px;
+    margin: 20px auto;
+
+}
+.texts{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-page-btn{
+    width:100%;
+    padding:10px 15px;
+    margin-top: 15px;
+    background-color: #ffd966;
+    color: black;
+    
+}

@@ -1,0 +1,52 @@
+.form-container{
+    max-width: 400px;
+    margin:20px auto;
+    text-align: center;
+    padding: 20px;
+}
+.upper-box, .lower-box{
+    width:100%;
+    box-shadow: 0 0 3px black;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.upper-box input{
+    width:90%;
+    height:30px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 0 1px black;
+    outline: none;
+    margin-bottom: 11px;
+    padding-left: 7px;
+}
+.auth-btn,.google-btn, .phone-btn{
+    width:100%;
+    padding:10px 0;
+    outline: none;
+    cursor: pointer;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+.upper-box form{
+    margin-bottom: 15px;
+    width:100%;
+    border:none;
+    height: max-content;
+}
+.google-btn{
+    margin-top: 10px;
+    background-color: royalblue;
+}
+.upper-box span{
+    font-weight: 600;
+    font-size: 15px;
+}
+.phone-btn{
+    margin-top: 10px;
+    background-color: black;
+}
